@@ -20,8 +20,8 @@ import com.google.android.gms.safetynet.SafetyNetApi;
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener{
     // Google ReCAPTCHA sistemine giriş yapmanızla verilen key değerlerini buraya giriyoruz
-    final String SiteKey = "6LegHikUAAAAAPeC57PpZ3XBHfcIr1OCwDOWVKLn\n";
-    final String SecretKey  = "6LegHikUAAAAAGVigPhmwWkWafh-ZGI6LQWOFfJA";
+    final String SiteKey = "/*Your Site Key*/\n";
+    final String SecretKey  = "/*Your Secret Key*/";
     private GoogleApiClient mGoogleApiClient;
 
     Button btnRequest;
